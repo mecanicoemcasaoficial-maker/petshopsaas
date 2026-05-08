@@ -5,7 +5,7 @@ import { Badge } from '../../components/ui/Badge';
 import { Tabs } from '../../components/ui/Tabs';
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '../../components/ui/Table';
 import { ArrowLeft, Mail, Phone, MapPin, Calendar, DollarSign, PawPrint, ShoppingBag, Edit } from 'lucide-react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export function ClientProfile() {
   const client = {

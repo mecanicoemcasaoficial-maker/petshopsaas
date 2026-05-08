@@ -7,7 +7,7 @@ import { Select } from '../../components/ui/Select';
 import { Modal } from '../../components/ui/Modal';
 import { EmptyState } from '../../components/ui/EmptyState';
 import { Plus, PawPrint, Calendar, Syringe, Heart } from 'lucide-react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export function MyPets() {
   const [showModal, setShowModal] = useState(false);
